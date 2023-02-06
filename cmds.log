@@ -44,3 +44,31 @@
    44  wget -O output.pdf https://tinyurl.com/yy94jltt
    45  ls -latr
    46  history > cmds.log
+   47  git add cmds.log *.c
+   48  git commit -m "First commit-Class 1 hand on work sheet" -a
+   49  git branh
+   50  git branch
+   51  git push -u origin master
+   52  git clone https://VyDinhhh@github.com
+   53  cd Desktop
+   54  cd cs149
+   55  cd WS1
+   56  gcc lab1.15c -o l15
+   57  gcc lab1_15.c -o l15
+   58  ./l15
+   59  gcc lab1_16.c -o l16
+   60  ./l16
+   61  gcc lab1_17.c -o l17
+   62  ./l17
+   63  gcc lab1_18.c -o l18
+   64  ./l18
+   65  gcc lab1_19.c
+   66  ./lab1_19
+   67  gcc lab1_19.c -o l19
+   68  ./l19
+   69  gcc lab1_20.c -o l20
+   70  ./l20
+   71  history > cdms1.log
+   72  git remote add origin https://github.com/VyDinhhh/CS149_VyDinh.git
+   73  git add .
+   74  history > cmds.log
