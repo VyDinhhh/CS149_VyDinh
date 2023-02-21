@@ -1,0 +1,170 @@
+    1  sudo apt install gcc
+    2  gcc -v
+    3  sudo gcc -v
+    4  man sudo_root
+    5  sudo apt install make
+    6  cd cs149-test
+    7  cd Destop
+    8  cd Desktopcd cs149-test
+    9  cd Desktop
+   10  cd cs149-test
+   11  cd WS1-test
+   12  touch lab1_15.c
+   13  cd ~ ~
+   14  cd ~
+   15  gcc lab1_15.c -o lab1_15.c
+   16  gcc lab1_15.c -o lab1_15
+   17  ./lab1_15
+   18  gcc lab1_16.c -o lab1_16
+   19  ./lab1_16
+   20  gcc lab1_17.c -o lab1_17
+   21  gcc lab1_17.c -o lab1.17
+   22  gcc lab1_17.c -o lab1_17
+   23  ./lab1_17
+   24  gcc lab1_18.c -o lab1_18
+   25  ./lab1_18
+   26  ./lab1_19
+   27  gcc lab1_19.c -o lab1_19
+   28  ./lab1_19
+   29  gcc lab1_20.c -o l20
+   30  ./l20
+   31  pwd
+   32  ls -latr
+   33  cd Desktopmkdir cs149
+   34  cd Desktop
+   35  mkdir cs149
+   36  cd cs149
+   37  git init
+   38  git remote add origin https://github.com/VyDinhhh/CS149_VyDinh.git
+   39  git config --global  user.email ivydinhh@gmail.com
+   40  git config --global user.name VyDinhhh
+   41  mkdir WS1
+   42  cd WS1
+   43  git add .
+   44  wget -O output.pdf https://tinyurl.com/yy94jltt
+   45  ls -latr
+   46  history > cmds.log
+   47  git add cmds.log *.c
+   48  git commit -m "First commit-Class 1 hand on work sheet" -a
+   49  git branh
+   50  git branch
+   51  git push -u origin master
+   52  git clone https://VyDinhhh@github.com
+   53  cd Desktop
+   54  cd CS149
+   55  cd cs149
+   56  ls
+   57  mkdir A1
+   58  ls
+   59  cd A1
+   60  gedit countnames.c
+   61  gcc countnames.c -o a1
+   62  ./a1
+   63  ./a1 names.txt
+   64  ./a1 names.txt > /dev/null
+   65  ./a1 names.txt 2> /dev/null
+   66  gcc -o  countnames countnames.c -Wall -Werror 
+   67  echo$?
+   68  echo$
+   69  ./a1 names.txt|sort
+   70  gcc a1 -o countnames.c
+   71  gcc -o countnames.c a1
+   72  gcc countnames.c -o a1
+   73  gcc countnames.c -o la1
+   74  mkdir countnames.c
+   75  gedit countnames.c
+   76  gedit countnames_a1.c
+   77  gcc countnames_a1.c -o a1
+   78  ./a1 names.txt
+   79  gcc countnames.c -o a1
+   80  ./a1
+   81  ./a1 names.txt
+   82  git init
+   83  git status
+   84  git add countnames.c
+   85  git checkout branch
+   86  git checkout -b A1
+   87  git commit -m "Assignment 1" -a
+   88  git pust
+   89  git push
+   90  git remote add https://github.com/VyDinhhh/CS149_VyDinh.git
+   91  git remote add origin https://github.com/VyDinhhh/CS149_VyDinh.git
+   92  git push A1
+   93  git checkout
+   94  git checkout branch
+   95  git push
+   96  git checkout -b A1
+   97  git checkout A1
+   98  git push origin A1
+   99  cd ~
+  100  cd Desktop
+  101  cd cs149
+  102  mkdir WS2
+  103  mkdir WS3
+  104  cd WS3
+  105  gedit l4_14.c
+  106  gcc l4_14.c -o l1
+  107  ./l1
+  108  gcc l4_14.c -o l1
+  109  ./l1
+  110  gcc l4_14.c -o l11
+  111  ./l11
+  112  ./11
+  113  ./l11
+  114  gcc l4_14.c -o l4
+  115  ./l4
+  116  gcc l4_14.c -o l12
+  117  ./l12
+  118  gedit l4_16.c
+  119  gcc l4_16.c -o l16
+  120  ./l16
+  121  gedit l5_16.c
+  122  gcc l5_16.c -o l5
+  123  ./l5
+  124  gcc l5_16.c -o l56
+  125  ./l56
+  126  gcc l5_16.c -o ll
+  127  ./ll
+  128  gedit l5_17.c
+  129  gcc l5_17.c -o l17
+  130  ./l17
+  131  gedit l5_18.c
+  132  gcc l5_18.c -o l18
+  133  ./l18
+  134  gedit l5_21.c
+  135  gcc l5_21.c -o l21
+  136  ./l21
+  137  gedit l5_22.c
+  138  gcc l5_22.c -o l22
+  139  ./l22
+  140  gedit l5_23.c
+  141  gcc l5_23.c -o l23
+  142  ./l23
+  143  gcc l5_16.c -o l16
+  144  ./l16
+  145  ./16
+  146  ./l16
+  147  gcc l5_18.c -o l18
+  148  ./l18
+  149  gcc l5_18.c -o l18
+  150  ./l18
+  151  gcc l5_16.c -o l16
+  152  ./l16
+  153  [200~wget https://github.com/torvalds/linux/archive/master.zip (this will download the entire linux kernel source code)
+  154  wget https://github.com/torvalds/linux/archive/master.zip
+  155  unzip master.zip
+  156  cd ~
+  157  wget https://github.com/torvalds/linux/archive/master.zip
+  158  unzip master.zip
+  159  cd linux-master
+  160  pwd
+  161  alias l='ls -latr'
+  162  l
+  163  find . -name mem.c
+  164  find . -name mem.c | xargs head
+  165  find . -name mem.c | xargs grep 86
+  166  cd ..
+  167  cd Desktop
+  168  cd cs149
+  169  cd WS3
+  170  history > worksheet3.log
