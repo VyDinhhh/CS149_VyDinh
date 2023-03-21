@@ -1,0 +1,236 @@
+    1  sudo apt install gcc
+    2  gcc -v
+    3  sudo gcc -v
+    4  man sudo_root
+    5  sudo apt install make
+    6  cd cs149-test
+    7  cd Destop
+    8  cd Desktopcd cs149-test
+    9  cd Desktop
+   10  cd cs149-test
+   11  cd WS1-test
+   12  touch lab1_15.c
+   13  cd ~ ~
+   14  cd ~
+   15  gcc lab1_15.c -o lab1_15.c
+   16  gcc lab1_15.c -o lab1_15
+   17  ./lab1_15
+   18  gcc lab1_16.c -o lab1_16
+   19  ./lab1_16
+   20  gcc lab1_17.c -o lab1_17
+   21  gcc lab1_17.c -o lab1.17
+   22  gcc lab1_17.c -o lab1_17
+   23  ./lab1_17
+   24  gcc lab1_18.c -o lab1_18
+   25  ./lab1_18
+   26  ./lab1_19
+   27  gcc lab1_19.c -o lab1_19
+   28  ./lab1_19
+   29  gcc lab1_20.c -o l20
+   30  ./l20
+   31  pwd
+   32  ls -latr
+   33  cd Desktopmkdir cs149
+   34  cd Desktop
+   35  mkdir cs149
+   36  cd cs149
+   37  git init
+   38  git remote add origin https://github.com/VyDinhhh/CS149_VyDinh.git
+   39  git config --global  user.email ivydinhh@gmail.com
+   40  git config --global user.name VyDinhhh
+   41  mkdir WS1
+   42  cd WS1
+   43  git add .
+   44  wget -O output.pdf https://tinyurl.com/yy94jltt
+   45  ls -latr
+   46  history > cmds.log
+   47  git add cmds.log *.c
+   48  git commit -m "First commit-Class 1 hand on work sheet" -a
+   49  git branh
+   50  git branch
+   51  git push -u origin master
+   52  git clone https://VyDinhhh@github.com
+   53  cd Desktop
+   54  ls
+   55  cd ~
+   56  cd Home
+   57  ls
+   58  cd apue.3e
+   59  ls
+   60  cd proc
+   61  ls
+   62  gcc test1.c -o t1
+   63  gcc -ansi - l../include -DLINUX -D_GNU_SOURCE -Wall -o test1 test1.c -L../lib-lapue
+   64  cd ~
+   65  cd apue.3e
+   66  make all
+   67  cd proc
+   68  gcc test1.c -o test1
+   69  make all
+   70  No such file or directory
+   71  compilation terminated.
+   72  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue 
+   73  ./test1
+   74  make all
+   75  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue
+   76  ./test1
+   77  gcc test1.c -o t1
+   78  make all
+   79  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue 
+   80  ./test1
+   81  cd ..
+   82  make all
+   83  cd apue.3e
+   84  cd proc
+   85  ls
+   86  make all
+   87  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue
+   88  ./test1
+   89  make all
+   90  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue
+   91  ./test1
+   92  make all
+   93  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue
+   94  [200~gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue~
+   95  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue
+   96  ./test1
+   97  echo $>
+   98  echo $?
+   99  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue
+  100  echo $?
+  101  /test1
+  102  /.test1
+  103  ./test1
+  104  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  test1.c -o test1  -L../lib -lapue
+  105  ./test1
+  106  cd Download
+  107  ls
+  108  cd Downloads
+  109  ls
+  110  gcc shell1_execvp_lsdemo.c -o s1
+  111  ./s1
+  112  ls
+  113  gcc read_parse_file.c -o l1
+  114  ./l1
+  115  ls
+  116  gcc shell1_apue.c -o l1
+  117  cd..
+  118  cd ..
+  119  cd Desktop
+  120  ls
+  121  cd ..
+  122  cd apue3
+  123  ls
+  124  cd apue.3e
+  125  ls
+  126  gcc shell1_apue.c -o l1
+  127  make all
+  128  gcc shell1_apue.c -o l1
+  129  make all
+  130  make
+  131  all
+  132  cd include
+  133  ls
+  134  gcc shell1_apue.c -o l1
+  135  ./l1
+  136  make all
+  137  gcc shell1_apue.c -o l1
+  138  cd ..
+  139  cd proc
+  140  ls
+  141  gcc sysytest1.c -o sys
+  142  gcc systest1.c -o sys
+  143  ls
+  144  make all
+  145  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  -o systest1 systest1.o system.o  -L../lib -lapue
+  146  ./systest1
+  147  ls
+  148  make all
+  149  gcc shell1_apue.c -o l1
+  150  make all
+  151  gcc shell1_apue.c -o l1
+  152  make all
+  153  cd ..
+  154  make all
+  155  cd proc
+  156  make all
+  157  make shell1_apue.c 
+  158  make all
+  159  gcc shell1_apue.c
+  160  make all
+  161  ls
+  162  gcc test1.c -o t1
+  163  make all
+  164  makeall
+  165  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  -o systest1 systest1.o system.o  -L../lib -lapu
+  166  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE   -c -o systest1.o systest1.c
+  167  ./system1
+  168  ./systest1
+  169  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE   -c -o systest1.o systest1.c
+  170  ./systest.o
+  171  ./systest
+  172  ./systest1.o
+  173  gcc test1.c
+  174  make all
+  175  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  -o systest1 systest1.o system.o  -L../lib -lapue
+  176  ./systest1
+  177  gcc -ansi -I../include -Wall -DLINUX -D_GNU_SOURCE  -o s shell1_apue.c  -L../lib -lapue
+  178  ./s
+  179  cd .. ..
+  180  cd ..
+  181  ls
+  182  cd Downloads
+  183  ls
+  184  wc names.txt
+  185  cd ..
+  186  cd Desktop
+  187  ls
+  188  cd cs149
+  189  cd WS7
+  190  ls
+  191  gedit lseek_example.c
+  192  gcc lseek_example.c -o l1
+  193  ./l1
+  194  cat end.txt
+  195  gcc lseek_example.c -o l1
+  196  ./l1
+  197  cat end.txt
+  198  gcc lseek_example.c -o l1
+  199  ./l1
+  200  gcc lseek_example.c -o l2
+  201  ./l2
+  202  cat end.txt
+  203  cat start.txt
+  204  gcc lseek_example.c -o l1
+  205  ./l1
+  206  cat end.txt
+  207  cd Desktop
+  208  cd cs149
+  209  ls
+  210  cd WS7
+  211  ls
+  212  gedit 6_24.c
+  213  gcc 6_24.c -o l1
+  214  ./l1
+  215  ls
+  216  gedit lseek_example.c
+  217  gcc lseek_example.c -o lab
+  218  ./lab
+  219  cat end.txt
+  220  gedit start.txt
+  221  ./lab
+  222  cat end.txt
+  223  gcc lseek_example.c -o lab
+  224  ./lab
+  225  cat end.txt
+  226  ./lab
+  227  cat end.txt
+  228  ls | wc
+  229  ls | sort
+  230  ls | sort | wc
+  231  ls -latr /bin/ > a.out
+  232  cat a.out | more
+  233  strace ls
+  234  du -sh .
+  235  df -i
+  236  history > worksheet7.log
