@@ -1,0 +1,27 @@
+  300  cd apue.3e
+  301  rsync -arv filedir/ filedir1/
+  302  cp -r filedir/ filedir2/
+  303  ls -latr filedir1/
+  304  ls -latr filedir2/
+  305  cd filedir1
+  306  ls
+  307  find *.c
+  308  stat mycd.c
+  309  stat ftw8.c
+  310  cat ftw8.c
+  311  rm ftw8.c
+  312  ls
+  313  du access.c
+  314  find ftw8.c
+  315  locate access.c
+  316  mkdir ws13
+  317  rmdir
+  318  rmdir --help
+  319  rmdir ws13
+  320  ls
+  321  df filetype.c
+  322  df mycd.c
+  323  history > worksheet13.log
+  
+  // Answer:
+  The dates in filedir1 and filedir2 are different. In the file filedir1, the date of each file is original date. In the contrary, the date shown in file filedir2 is when those files are coppied. 
