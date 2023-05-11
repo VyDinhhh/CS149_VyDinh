@@ -1,3 +1,10 @@
+/**
+ * Description: This program counts name from file by thread
+ * Author names: Vy Dinh
+ * Author emails: thithuyvy.dinh@sjsu.edu
+ * Last modified date: 05/10/2023
+ * Creation date: 05/01/2023
+ **/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
